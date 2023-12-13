@@ -12,7 +12,10 @@ const cohort = "India 2023"
 // console.log(cohort.split(" "))
 
 // a) Your answer:
+["India", "2023"]
+
 // b) Verify and explain:
+This is what it logged
 
 // --------------------2) What will this log?
 
@@ -22,7 +25,10 @@ const greeter = (name) => {
 // console.log(greeter("LEARN Student"))
 
 // a) Your answer:
+Hello, LEARN Student!
+
 // b) Verify and explain:
+Answer is correct
 
 // --------------------3) What will this log?
 
@@ -43,7 +49,10 @@ const myCodingSkills = {
 // console.log(myCodingSkills.languages[0])
 
 // a) Your answer:
+[11, 13, 15]
+
 // b) Verify and explain:
+Answer came out the same
 
 // --------------------5) What will this log?
 
@@ -58,4 +67,11 @@ const learnStudent = new Learn("George")
 // console.log(learnStudent)
 
 // a) Your answer:
+Learn {
+  student: 'George',
+  cohort: 'India',
+  year: 2023
+}
+
 // b) Verify and explain:
+Answer above is correct
